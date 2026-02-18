@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.automatedsystemssimulator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="АСУ академия"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutomatedSystemsSimulator"
+        tools:targetApi="31">
+        <activity
+            android:name=".TestResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LectureDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestTopicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PracticeTopicsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AutomatedSystemsSimulator" />
+        <activity
+            android:name=".TheoryTopicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AutomatedSystemsSimulator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TheoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AutomatedSystemsSimulator" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AutomatedSystemsSimulator" />
+        <activity
+            android:name=".ResultsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AutomatedSystemsSimulator" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AutomatedSystemsSimulator" />
+    </application>
+
+</manifest>
